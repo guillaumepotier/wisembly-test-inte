@@ -8,4 +8,8 @@ $(document).ready(function() {
        $(this).toggleClass('active'); 
     });
     
+    $('#img-fullscreen').click(function() {
+       $('#lightbox').addClass('active'); 
+    });
+    
 });

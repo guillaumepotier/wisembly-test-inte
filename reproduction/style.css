@@ -116,3 +116,40 @@ header {
 .active .bar:nth-of-type(3) {
     transform: rotate(45deg) translate(-3px, -12.5px);
 }
+
+/* Content */
+
+main {
+    height: calc(100% - 120px);
+    padding: 25px 0;
+    box-sizing: border-box;
+    background-color: #07070A;
+}
+
+#content-img {
+    position: relative;
+}
+
+#content-img img {
+    width: 100%;
+}
+
+#img-fullscreen {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 7px;
+    background-color: rgba(7, 7, 10, 0.7);
+    background-image: url(assets/ico-fullscreen.svg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: .25s;
+}
+
+#img-fullscreen:hover {
+    background-color: #07070a;
+}
