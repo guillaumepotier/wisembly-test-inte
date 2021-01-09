@@ -220,8 +220,14 @@ main {
 .opinion-smiley {
     width: 35px;
     height: 35px;
+    border-radius: 100%;
     background-size: 100%;
     cursor: pointer;
+    transition: .25s cubic-bezier(0, 1.25, .75, 1.5);
+}
+
+.opinion-smiley.selected {
+    box-shadow: 0 0 0 7px rgba(241, 188, 51, 0.35);
 }
 
 .open .opinion-smiley {
@@ -277,6 +283,8 @@ main {
         transform: scale(1);
     }
 }
+
+/* Tab bar */
 
 footer {
     height: 45px;
