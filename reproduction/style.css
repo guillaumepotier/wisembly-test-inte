@@ -223,7 +223,7 @@ main {
     border-radius: 100%;
     background-size: 100%;
     cursor: pointer;
-    transition: .25s cubic-bezier(0, 1.25, .75, 1.5);
+    transition: box-shadow .25s cubic-bezier(0, 1.25, .75, 1.5);
 }
 
 .opinion-smiley.selected {
